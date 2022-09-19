@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PokeTeam/static/css/main.f9f254b3.css",
+    "main.js": "/PokeTeam/static/js/main.77efbc29.js",
+    "index.html": "/PokeTeam/index.html",
+    "main.f9f254b3.css.map": "/PokeTeam/static/css/main.f9f254b3.css.map",
+    "main.77efbc29.js.map": "/PokeTeam/static/js/main.77efbc29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9f254b3.css",
+    "static/js/main.77efbc29.js"
+  ]
+}
