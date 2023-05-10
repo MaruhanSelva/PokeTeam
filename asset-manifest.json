@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PokeTeam/static/css/main.f9f254b3.css",
-    "main.js": "/PokeTeam/static/js/main.77efbc29.js",
+    "main.css": "/PokeTeam/static/css/main.e9aec9a5.css",
+    "main.js": "/PokeTeam/static/js/main.d3972b0c.js",
     "index.html": "/PokeTeam/index.html",
-    "main.f9f254b3.css.map": "/PokeTeam/static/css/main.f9f254b3.css.map",
-    "main.77efbc29.js.map": "/PokeTeam/static/js/main.77efbc29.js.map"
+    "main.e9aec9a5.css.map": "/PokeTeam/static/css/main.e9aec9a5.css.map",
+    "main.d3972b0c.js.map": "/PokeTeam/static/js/main.d3972b0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9f254b3.css",
-    "static/js/main.77efbc29.js"
+    "static/css/main.e9aec9a5.css",
+    "static/js/main.d3972b0c.js"
   ]
 }
