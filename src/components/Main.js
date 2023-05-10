@@ -37,7 +37,6 @@ function Main() {
         setError(null);
       } catch (err) {
         setError(err.message);
-        setPokes(null);
       } finally {
         setLoading(false);
       }
@@ -82,12 +81,15 @@ function Main() {
 
 
   return (
-    <>
+    <div className='main'>
 
       <p className="instructions">Enter the Pokemon on your team to see which STAB type strengths you are missing!</p>    
       <p className="subtitle">Make sure you spell the Pokemon's name correctly!</p>
       {loading && <div>A moment please...</div>}
-      {error && <div>There is a problem accessing the data</div>}
+      <div className="centered">
+        {error && <div className="error">That is an invalid Pokemon Name</div>}
+      </div>
+      
 
       <form onSubmit={handleFormSubmit} className="pokemon_adder">
         <label>
@@ -111,8 +113,8 @@ function Main() {
       </div>
 
       <div className="buttons">
-        {(pokes.length !== 0) && <button onClick={removePokemon}>Remove Pokemon</button>}
-        <button onClick={displayVulnerabilties}>Get Vulnerabilities</button>
+        {(pokes.length !== 0) && <button className='remove' onClick={removePokemon}>Remove Pokemon</button>}
+        <button className="weakness" onClick={displayVulnerabilties}>Get Vulnerabilities</button>
       </div>
       
       <div className="type_align">
@@ -123,7 +125,7 @@ function Main() {
         </div>
       </div>
 
-    </>
+    </div>
   );
 }
 
